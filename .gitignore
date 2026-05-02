@@ -5,7 +5,5 @@ quicksand-mobile/.expo
 quicksand-desktop/node_modules
 quicksand-desktop/dist
 quicksand-desktop/build
-quicksand-desktop/public
 quicksand-desktop/quicksand-ui/node_modules
 quicksand-desktop/quicksand-ui/build
-quicksand-desktop/quicksand-ui/public
