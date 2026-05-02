@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Electron LAN App</h1>
+    <button onclick="test()">Test Server</button>
+
+    <script>
+      async function test() {
+        const res = await fetch("http://localhost:3000/");
+        const text = await res.text();
+        alert(text);
+      }
+    </script>
+  </body>
+</html>
